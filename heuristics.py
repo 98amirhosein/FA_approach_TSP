@@ -1,6 +1,7 @@
 from NearestNeighborHeuristic import NearestNeighborHeuristic
 from NearestInsertionHeuristic import NearestInsertionHeuristic
 
+
 class NearestInsertion:
 
 	def __init__(self, cities):
