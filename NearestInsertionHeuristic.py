@@ -1,7 +1,7 @@
 from City import *
 import sys
 import random
-# import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 
 class NearestInsertionHeuristic():
 	def __init__(self, cities):
@@ -22,24 +22,24 @@ class NearestInsertionHeuristic():
 			self.PutThreeRandomCitiesToTheBack()
 			self.InitSolutionWithThreeCitiesFromTheBack(solution, isCityAdded)
 			
-			#x = []
-			#y = []
-			#x2 = []
-			#y2 = []
-			#for j in solution:
-				#x.append(j.x)
-				#y.append(j.y)
+			x = []
+			y = []
+			x2 = []
+			y2 = []
+			for j in solution:
+				x.append(j.x)
+				y.append(j.y)
 				
-			#for i in range(self.numberOfCities):
-				#if isCityAdded[i] == False:
-					#x2.append(self.cities[i].x)
-					#y2.append(self.cities[i].y)
+			for i in range(self.numberOfCities):
+				if isCityAdded[i] == False:
+					x2.append(self.cities[i].x)
+					y2.append(self.cities[i].y)
 			
-			#plt.scatter(x, y)
-			#plt.scatter(x2, y2)
-			#plt.plot(x, y)
-			#plt.plot(x2, y2, 'ro')
-			#plt.show()
+			plt.scatter(x, y)
+			plt.scatter(x2, y2)
+			plt.plot(x, y)
+			plt.plot(x2, y2, 'ro')
+			plt.show()
 						
 			while self.AllCitiesAdded(isCityAdded) == False:
 				bestDistance = sys.maxsize
@@ -68,28 +68,28 @@ class NearestInsertionHeuristic():
 				solution.insert(indexToInsert, self.cities[cityToAddIndex])
 				isCityAdded[cityToAddIndex] = True
 				numberOfCitiesInSolution = numberOfCitiesInSolution + 1
-				
-				#x = []
-				#y = []
-				#x2 = []
-				#y2 = []
-				#for j in solution:
-					#x.append(j.x)
-					#y.append(j.y)
+
+				x = []
+				y = []
+				x2 = []
+				y2 = []
+				for j in solution:
+					x.append(j.x)
+					y.append(j.y)
 					
-				#for i in range(self.numberOfCities):
-					#if isCityAdded[i] == False:
-						#x2.append(self.cities[i].x)
-						#y2.append(self.cities[i].y)
+				for i in range(self.numberOfCities):
+					if isCityAdded[i] == False:
+						x2.append(self.cities[i].x)
+						y2.append(self.cities[i].y)
 				
-				#plt.scatter(x, y)
-				#plt.scatter(x2, y2)
-				#plt.plot(x, y)
-				#plt.plot(x2, y2, 'ro')
-				#plt.show()
+				plt.scatter(x, y)
+				plt.scatter(x2, y2)
+				plt.plot(x, y)
+				plt.plot(x2, y2, 'ro')
+				plt.show()
 							
-			#solution.append(solution[0])
-			# solutions.append([elem.index for elem in solution])
+			solution.append(solution[0])
+			solutions.append([elem.index for elem in solution])
 			solutions.append(solution)
 			
 		return solutions

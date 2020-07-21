@@ -76,7 +76,7 @@ class TSPSolver():
 
 	def check_if_best_solution(self, index):
 		new_cost = self.light_intensities[index]
-		if new_cost < self.best_solution_cost: 
+		if new_cost < self.best_solution_cost:
 			self.best_solution = copy.deepcopy(self.population[index])
 			self.best_solution_cost = new_cost
 
@@ -96,7 +96,8 @@ class TSPSolver():
 			value_to_copy = self.population[b][random_index]
 			index_to_move = self.population[a].index(value_to_copy)
 
-			if number_of_swaps == 1 and self.population[a][index_to_move] == self.population[b][random_index] and self.population[a][random_index] == self.population[b][index_to_move]:
+			if number_of_swaps == 1 and self.population[a][index_to_move] == self.population[b][random_index] \
+					and self.population[a][random_index] == self.population[b][index_to_move]:
 				break
 
 			self.population[a][random_index], self.population[a][index_to_move] = self.population[a][index_to_move], self.population[a][random_index]
@@ -121,7 +122,7 @@ class TSPSolver():
 	def I(self, index, r):
 		return self.light_intensities[index] * math.exp(-1.0 * self.absorptions[index] * r**2)
 
-	def run(self, number_of_individuals=100, iterations=200, heuristics_percents=(0.0, 0.0, 1.0), beta=0.7):
+	def run(self, number_of_individuals=100, iterations=1, heuristics_percents=(1.0, 0, 1.0), beta=0.5):
 		"gamma is parameter for light intensities, beta is size of neighbourhood according to hamming distance"
 		# hotfix, will rewrite later
 		self.best_solution = random_permutation(self.indexes)
@@ -142,14 +143,19 @@ class TSPSolver():
 				for i in individuals_indexes:
 					r = hamming_distance(self.population[i], self.population[j])
 					if self.I(i, r) > self.I(j, r) and r < neighbourhood:
-						self.move_firefly(i, j, r)						
+						self.move_firefly(i, j, r)
 						self.check_if_best_solution(i)
 
 			self.n += 1
 			if self.n % 100 == 0:
-				print(self.n)
-				print(self.best_solution_cost)
-		
+				# print(self.n)
+				print(self.best_solution_cost )
 
-		print(self.best_solution_cost)
+
+		print(self.best_solution_cost , "the best " )
+
+		fi = open("result.csv", 'a')
+		fi.write(str(self.best_solution_cost))
+		fi.write('\n')
+		fi.close()
 		return self.best_solution
