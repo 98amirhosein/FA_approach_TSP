@@ -1,6 +1,7 @@
 *~
 *.pyc
 __pycache__
+.idea
 
 gui-app/node_modules
 gui-app/.sass-cache

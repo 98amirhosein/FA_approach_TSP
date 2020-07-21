@@ -2,48 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eed336d9-7325-455e-bd99-fe357b1d7d00" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/NearestInsertionHeuristic.py" beforeDir="false" afterPath="$PROJECT_DIR$/NearestInsertionHeuristic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fireflies.py" beforeDir="false" afterPath="$PROJECT_DIR$/fireflies.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui-app/.bowerrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui-app/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui-app/.jshintrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui-app/.npmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui-app/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui-app/.yo-rc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui-app/app/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui-app/app/app.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui-app/app/assets/.assets.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui-app/app/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui-app/app/modules/.modules.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui-app/app/modules/main/directive/chart/chart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui-app/app/modules/main/directive/chart/chart.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui-app/app/modules/main/directive/graph/graph.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui-app/app/modules/main/directive/graph/graph.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui-app/app/modules/main/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui-app/app/modules/main/main.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui-app/app/modules/main/partial/index/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui-app/app/modules/main/partial/index/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui-app/app/modules/main/partial/index/index.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui-app/app/modules/main/service/SolverService.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui-app/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui-app/build/build.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui-app/build/dist/assets/.assets.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui-app/build/dist/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui-app/build/dist/modules/main/partial/index/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui-app/build/dist/scripts/app-6ee43b7b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui-app/build/dist/scripts/vendor-9863974f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui-app/build/dist/styles/app-5d0f2ec6.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui-app/build/dist/styles/vendor-89c3f206.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui-app/build/karma.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui-app/build/protractor.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui-app/build/tmp/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui-app/build/tmp/app.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui-app/build/tmp/templates.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui-app/gulpfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui-app/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/City.py" beforeDir="false" afterPath="$PROJECT_DIR$/City.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="203">
+              <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
               <folding>
                 <element signature="e#19#30#0" expanded="true" />
               </folding>
@@ -76,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/City.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="3" selection-start-column="3" selection-end-column="3" />
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -88,7 +48,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fireflies.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
+            <state relative-caret-position="2265">
               <caret line="157" column="44" selection-start-line="157" selection-start-column="44" selection-end-line="157" selection-end-column="44" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
@@ -100,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NearestInsertionHeuristic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+            <state relative-caret-position="90">
+              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -113,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/NearestNeighborHeuristic.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="17" column="74" lean-forward="true" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
+              <caret line="17" column="74" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -146,6 +106,7 @@
         <option value="$PROJECT_DIR$/result.csv" />
         <option value="$PROJECT_DIR$/times.csv" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/City.py" />
       </list>
     </option>
   </component>
@@ -171,7 +132,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,9 +143,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -285,21 +247,31 @@
       <workItem from="1593602162710" duration="28000" />
       <workItem from="1595323285878" duration="319000" />
       <workItem from="1595323625495" duration="95000" />
+      <workItem from="1595323739826" duration="247000" />
     </task>
+    <task id="LOCAL-00001" summary="city commit">
+      <created>1595323986556</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595323986556</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7418000" />
+    <option name="totallyTimeSpent" value="7665000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="1058" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18036287" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18249734" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49839914" weight="0.32824427" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6670224" weight="0.4263904" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49786553" weight="0.32824427" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.66648877" weight="0.4263904" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -307,8 +279,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.3329776" side_tool="true" visible="true" weight="0.4263904" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053364" side_tool="true" visible="true" weight="0.3293348" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4994664" visible="true" weight="0.3293348" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -319,6 +291,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="city commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="city commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/firefly_tsp$firefly_tsp.coverage" NAME="firefly-tsp Coverage Results" MODIFIED="1593581859399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
@@ -331,6 +307,16 @@
     <entry file="file://$PROJECT_DIR$/times.csv" />
     <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/server.py" />
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+          <folding>
+            <element signature="e#19#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/heuristics.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -340,16 +326,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/City.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" selection-start-column="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fireflies.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
+        <state relative-caret-position="2265">
           <caret line="157" column="44" selection-start-line="157" selection-start-column="44" selection-end-line="157" selection-end-column="44" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
@@ -359,8 +338,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NearestInsertionHeuristic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        <state relative-caret-position="90">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -370,20 +349,17 @@
     <entry file="file://$PROJECT_DIR$/NearestNeighborHeuristic.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="17" column="74" lean-forward="true" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
+          <caret line="17" column="74" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/City.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#19#30#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
