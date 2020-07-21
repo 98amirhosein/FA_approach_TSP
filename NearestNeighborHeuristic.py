@@ -18,7 +18,6 @@ class NearestNeighborHeuristic():
 			self.InitTabWithValue(isCityAdded, self.numberOfCities, False)
 				
 			firstCityIndex = random.randint(0, self.numberOfCities - 1)
-			# solution.append(self.cities[firstCityIndex])
 			solution.append(firstCityIndex)
 			lastCityAdded = self.cities[firstCityIndex]
 			isCityAdded[firstCityIndex] = True
